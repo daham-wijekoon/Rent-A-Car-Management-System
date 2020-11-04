@@ -1,0 +1,97 @@
+body{
+	background-image: url("../images/13.jpg");
+	background-size: cover;
+}
+
+.arrow i{
+	color: black;
+
+
+}
+
+.register{
+	width: 500px;
+	height: 530px;
+	border:0.1px solid #fff;
+	position: absolute;
+	background: rgba(255,255,255,0.7);
+	top: 7%;
+	left: 33%
+}
+
+.register h1{
+	position: absolute;
+	left: 35%;
+}
+
+.register form{
+	position: absolute;
+	top: 90px;
+}
+
+.my-form{
+	padding: 20px;
+
+}
+
+.my-form label{
+	display: block;
+	padding-bottom: 5px;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form input[type="password"]{
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	
+}
+
+#lname{
+	position:absolute;
+	top: 0px;
+	left: 280px;
+
+}
+
+#pno{
+	position:absolute;
+	top: 82px;
+	left: 280px;
+
+}
+
+.my-form input[type="submit"]{
+	font-size: 20px;
+	width: 170px;
+	color: #fff;
+	position: absolute;
+	padding: 10px 15px;
+	background-color: #037907;
+	border:none;
+	top: 350px;
+	left: 60%;
+	border-radius: 5px;
+}
+
+.my-form input[type="file"]{
+
+}
+
+
+#email input{
+	width: 170px;
+}
+
+#password input{
+	width: 450px;
+}
+
+#con-password input{
+	width: 450px;
+}
+
+.my-form input[type="submit"]:hover{
+	cursor: pointer;
+	background:#222;	
+}
