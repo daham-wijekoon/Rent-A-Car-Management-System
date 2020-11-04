@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*body{
+	background: url(../image/19.jpg); 
+	background-position: bottom;
+	background-size: 1350px;
+}*/
+
+a{
+	text-decoration:none;
+}
+
+.header{
+	width:100%;
+	height:50px;
+	background-color:#fc9020;
+	margin:0 auto;
+}
+
+.logo{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.logo a{
+	font-family:Cooper Black;
+	font-size:1.6em;
+	color:#000;
+	
+}
+
+.logo a span{
+	font-weight:300;
+}
+
+#wrapper{
+	position: absolute;
+	width: 224px;
+	background-color: #fc9020;
+	height: 73.5vh;
+	z-index: 3;
+}
+
+#wrapper ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper ul li{
+	padding: 20px 10px;
+	
+}
+
+#wrapper ul li a{
+	color: #000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.image1 img{
+	width: 224px;
+}
+
+.collapse:not(.show){
+	display:none
+}
+
+.collapsing{
+	position:relative;
+	height:0;
+	overflow:hidden;
+	-webkit-transition:height .15s ease;
+	transition:height .15s ease;
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{
+		padding:.5rem 1rem;
+		margin:0 .5rem;
+		display:block;
+		color:#3a3b45;
+		text-decoration:none;
+		border-radius:.35rem;
+		white-space:nowrap;
+}
+
+.p-box{
+	left: 224px;
+	width: 1311.5px;
+	height: 671px;
+	border:0.1px solid #000;
+	position: absolute;
+	background-image: url(../image/5.jpg);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: 100%;
+}
+
+.p-box h1{
+	position: absolute;
+	top:15%;
+	left: 11%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #990000;
+}
+
+.p-box h2{
+	position: absolute;
+	top:180px;
+	left: 600px;
+	color: #cc0000;
+}
+
+.analyze-button input{
+	position: absolute;
+	left: 1400px;
+	top: 0px;
+	width: 120px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #E62D2D;
+	border-radius: 10px;
+
+}
+
+/*h1{
+	position: absolute;
+	top:30%;
+	left: 31.8%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}
+
+h2{
+	position: absolute;
+	top:45%;
+	left: 53%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}
+
+h3{
+	position: absolute;
+	top:60%;
+	left: 25%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}*/
+
+#wrapper ul li a:hover{
+	padding: 22.3px 20px;
+}
+
+#wrapper ul li:active{
+	background:#cc6600;
+}
+
+.analyze-button input:hover{
+	cursor: pointer;
+	background:#f30f0f;
+}

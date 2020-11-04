@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*body{
+	background: url(../image/19.jpg); 
+	background-position: bottom;
+	background-size: 1350px;
+}*/
+
+a{
+	text-decoration:none;
+}
+
+div.header{
+	width:100%;
+	height:50px;
+	background-color:#fc9020;
+	margin:0 auto;
+}
+
+.header h2{
+	position: absolute;
+	top:0px;
+	left: 650px;
+	font-size: 45px;
+	font-family: Cooper Black;
+
+}
+
+.logo{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.logo a{
+	font-family:Cooper Black;
+	font-size:1.6em;
+	color:#000;
+	
+}
+
+.logo a span{
+	font-weight:300;
+}
+
+#wrapper{
+	position: absolute;
+	width: 224px;
+	background-color: #fc9020;
+	height: 73.5vh;
+	z-index: 3;
+}
+
+#wrapper ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper ul li{
+	padding: 20px 10px;
+
+}
+
+#wrapper ul li a{
+	color: #000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.image1 img{
+	width: 224px;
+}
+
+.p-box{
+	left: 224px;
+	width: 1311.5px;
+	height: 671px;
+	border:0.1px solid #000;
+	position: absolute;
+	background-image: url(../image/11.jpg);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: 100%;
+	-webkit-filter:blur (5px);
+	filter: blur(2px);
+
+}
+
+.p-box h1{
+	position: absolute;
+	top:20%;
+	left: 15%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #990000;
+}
+
+.collapse:not(.show){
+	display:none
+}
+
+.collapsing{
+	position:relative;
+	height:0;
+	overflow:hidden;
+	-webkit-transition:height .15s ease;
+	transition:height .15s ease;
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{
+		padding:.5rem 1rem;
+		margin:0 .5rem;
+		display:block;
+		color:#3a3b45;
+		text-decoration:none;
+		border-radius:.35rem;
+		white-space:nowrap;
+}
+
+.my-form{
+	width: 800px;
+	height: 500px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; 
+}
+
+.my-form h2{
+	position:absolute;
+	top: 30px;
+	left: 30px;
+	font-size: 45px;
+	color: #E62D2D;
+	font-family: Lucida Sans;
+}
+
+.my-form{
+	filter:brightness(1.5);
+	top:340px;
+	left: 800px;
+}
+
+.form{
+	padding-top: 50px;
+}
+
+p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	color: #E4BD53;
+	font-size: 18px;
+}
+
+input{
+	padding:0px;
+	padding-bottom: 0px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.emp-name{
+	position: absolute;
+	top: 120px;
+	left: 320px;
+}
+
+.emp-id{
+	padding-bottom: 20px;
+}
+
+.emp-add{
+	padding-bottom: 20px;
+}
+
+.emp-add input{
+	width: 66%;
+}
+
+.emp-tp{
+	padding-bottom: 20px;
+}
+
+.liense-no{
+	position: absolute;
+	top: 120px;
+	left: 575px;
+}
+
+.emp-DOB{
+	position: absolute;
+	top: 262px;
+	left: 320px;
+}
+
+.emp-DOB input{
+	width: 200px;
+}
+
+.emp-nic{
+	position: absolute;
+	top:190px;
+	left: 575px;
+}
+
+.submit input[type="submit"]{
+	border:solid 1px #000;
+	background-color: #E62D2D;
+	width: 25%;
+	height: 60px;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: Times New Roman;
+	position: absolute;
+	left: 320px;
+	top: 400px;
+	
+}
+
+.submit{
+	padding-bottom: 10px;
+}
+
+.clear input[type="reset"]{
+	border:solid 1px #000;
+	background-color: #E62D2D;
+	width: 16%;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: Times New Roman;
+	position: absolute;
+	left: 635px;
+	top: 410px;
+}
+
+.clear input[type="reset"]:hover{
+	cursor: pointer;
+	background:#f30f0f;
+}
+
+.submit input[type="submit"]:hover{
+	cursor: pointer;
+	background:#f30f0f;
+	
+}
+
+.view input[type="button"]{
+	border:solid 1px #000;
+	background-color: #E62D2D;
+	width: 16%;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: Times New Roman;
+	position: absolute;
+	left: 60px;
+	top: 410px;
+}
+
+.view input[type="button"]:hover{
+	cursor: pointer;
+	background:#f30f0f;
+	
+}
+
+input:focus{
+	background: #000;
+}
+
+/*h1{
+	position: absolute;
+	top:30%;
+	left: 31.8%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}
+
+h2{
+	position: absolute;
+	top:45%;
+	left: 53%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}
+
+h3{
+	position: absolute;
+	top:60%;
+	left: 25%;
+	font-size: 80px;
+	letter-spacing: 0.2em;
+	font-family: Wide Latin;
+	color: #fff;
+}*/
+
+#wrapper ul li a:hover{
+	padding: 22.3px 20px;
+}
+
+#wrapper ul li:active{
+	background:#cc6600;
+}

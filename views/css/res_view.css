@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+
+
+#editable_table{
+	background:;
+}
+
+.back-button{
+	position: absolute;
+	padding-left: 4px;
+	padding-top: 4px;	
+}
+
+.back-button:hover{
+	cursor: pointer;
+}
+
+.table-responsive h3{
+	font-family:Cooper Black;
+	color: #663300;
+	font-size: 40px;
+	position: relative;
+	left: -390px;
+}
+

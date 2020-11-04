@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../image/33.jpg); 
+	background-size: 1535px 1000px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.my-form{
+	filter:brightness(1.5);
+	top:340px;
+	left: 500px;
+}
+
+.form{
+	padding-top: 50px;
+	
+}
+
+
+.my-form{
+	width: 700px;
+	height: 600px;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; 
+}
+
+.my-form h2{
+	position:absolute;
+	top: 10px;
+	left: 250px;
+	font-size: 45px;
+	color: black;
+	font-family: ALGERIAN;
+}
+
+p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	color:black;
+	font-size: 18px;
+}
+
+.inv-no{
+	padding-bottom: 20px;
+}
+
+.name{
+	position: absolute;
+	top: 120px;
+	left: 370px;
+}
+
+.start_date{
+	padding-bottom: 20px;
+}
+
+.start_time{
+	position: absolute;
+	top: 175px;
+	left: 370px;
+}
+
+.end_date{
+	padding-bottom: 20px;
+}
+
+.end_time{
+	position: absolute;
+	top: 230px;
+	left: 370px;
+}
+
+.hours{
+	padding-bottom: 20px;
+}
+
+input{
+	padding:0px;
+	margin-bottom: 15px;
+	padding-bottom: 0px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 30px;
+	width: 50px;
+	color: #ffff;
+	font-size: 16px;
+}
+
+.mini_form{
+	width: 350px;
+	height: 300px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; 
+	top: 250px;
+	left: 1050px;
+}
+
+.mini_form p{
+	color: #ffff;
+	font-size: 16px;
+}
+
+.submit input[type="submit"]{
+	border:solid 1px #000;
+	background-color: #ffff;
+	width: 55px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: Times New Roman;
+	position: absolute;
+	left: 70px;
+	top: 220px;
+	
+}
+
+.submit{
+	padding-bottom: 10px;
+}
+
+.submit input[type="submit"]:hover{
+	cursor: pointer;
+	background:grey;
+	
+}
+
+.money{
+	padding-bottom: 20px;
+}
+
+.tot{
+	position: absolute;
+	left:170px;
+}
+
+.mon{
+	position: absolute;
+	top:50px;
+}
+
+.dis{
+	position: absolute;
+	top:170px;
+}
+
+.no{
+	position: absolute;
+	top:100px;
+}
+
+.discount{
+	position: absolute;
+	left:170px;
+	top: 450px;
+}
